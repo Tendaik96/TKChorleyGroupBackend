@@ -3,14 +3,14 @@ import morgan from "morgan";
 const app = express();
 const PORT = 3000;
 
- import dataRouter from "./routes/categoryRouter.js";
+ import reportsRouter from "./routes/reportsRouter.js";
 /*import userRouter from "./routes/users.js"; */
 
 app.use(morgan("dev"));
 app.use(express.static("public"));
 app.use(express.json());
 
- app.use("/api/category", dataRouter);
+ app.use("/api/category", reportsRouter);
 /*app.use("/api/user", userRouter);
  */
 app.listen(PORT, function () {

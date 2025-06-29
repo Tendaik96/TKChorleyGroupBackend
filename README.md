@@ -30,5 +30,5 @@ create .gitignore and add nodemodules so that this is not pushed to github when 
 create router
 import model
 import router to app.js
-test endpoitnt with postman
+test endpoitnt with postman or endpoint testr platform
 `localhost:3000/api/category`
