@@ -20,8 +20,7 @@ app.use(express.static("public"));
 app.use(express.json());
 
  app.use("/api/category", reportsRouter);
-/*app.use("/api/user", userRouter);
- */
+
 app.listen(PORT, function () {
   console.log(`Server is running on port ${PORT}`);
 });
