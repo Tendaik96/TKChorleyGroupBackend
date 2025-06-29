@@ -38,7 +38,6 @@ export async function getByCategory(category) {
         categoryReports.push(reports[i]); // add it to the result array
       }
     }
-
     // if no reports were found, throw an error
     if (categoryReports.length === 0) {
       throw new Error(`No reports found for category: ${category}`);
