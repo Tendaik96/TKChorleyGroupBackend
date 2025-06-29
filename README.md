@@ -32,3 +32,8 @@ import model
 import router to app.js
 test endpoitnt with postman or endpoint testr platform
 `localhost:3000/api/category`
+
+do the same for getReportbyCategoy
+Test postman
+
+connect backend with fron: https://stackoverflow.com/questions/47706022/error-cannot-find-module-cors
