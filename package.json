@@ -1,0 +1,19 @@
+{
+  "name": "tkchorleygroupbackend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Backend for BI SYSTEM PROJECT",
+  "main": "app.js",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "morgan": "^1.10.0"
+  },
+  "author": "Tendai Karuwo",
+  "license": "ISC"
+}
